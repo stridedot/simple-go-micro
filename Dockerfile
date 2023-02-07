@@ -22,7 +22,7 @@ RUN sed -i 's/deb.debian.org/mirrors.tuna.tsinghua.edu.cn/' /etc/apt/sources.lis
     # wget -q -O protoc.zip https://github.com/protocolbuffers/protobuf/releases/download/v3.20.3/protoc-3.20.3-linux-x86_64.zip \
 RUN curl -L -o /tmp/protoc.zip https://github.com/protocolbuffers/protobuf/releases/download/v3.20.3/protoc-3.20.3-linux-x86_64.zip && \
     unzip -d /tmp/protoc /tmp/protoc.zip && \
-    mv /tmp/protoc/bin/protoc /usr/local/bin
+    mv /tmp/protoc /usr/local/
 
 WORKDIR /app
 

@@ -49,6 +49,9 @@ func main() {
 			log.Fatalf("failed to serve: %v", err)
 		}
 
+		// 命令行测试工具
+		// https://github.com/grpc/grpc-go/blob/master/Documentation/server-reflection-tutorial.md
+
 		return nil
 	})
 

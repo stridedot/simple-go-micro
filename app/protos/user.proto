@@ -1,0 +1,14 @@
+// 撰寫格式是 Proto v3。
+syntax = "proto3";
+
+// User 帶有使用者資料，如帳號、密碼。
+message User {
+  string username = 1;
+  string password = 2;
+}
+
+// Post 帶有文章資料。
+message Post {
+  int64  id      = 1;
+  string content = 2;
+}

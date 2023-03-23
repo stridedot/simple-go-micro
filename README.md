@@ -1,5 +1,5 @@
 ## 微服务测试项目
-本项目包含了客户端（client）和服务端（server）
+本项目包含了客户端（client）和服务端（server）。集成了 gRPC 和 kafka，项目运行时两者可以同时使用。
 
 测试目录：
 - gk文件夹: 集成 gRPC 和 kafka，并完成 gRPC 调用，完成 kafka 消费
